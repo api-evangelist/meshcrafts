@@ -1,7 +1,16 @@
 aid: meshcrafts
 name: Meshcrafts
-description: Meshcrafts is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Meshcrafts, operating publicly as CURRENT (Current Eco AS, formerly Meshcrafts
+  AS, of Oslo, Norway), is a charge point management system (CPMS) provider for
+  electric vehicle (EV) charging infrastructure. Its cloud platform lets location
+  owners and charge point operators manage EV charging points, handle payment and
+  invoicing, apply smart energy management and load balancing, and offer white-label
+  charging experiences to drivers. The platform is hardware-agnostic and OCPP
+  (Open Charge Point Protocol) certified for OCPP 1.6 and OCPP 2.0.1, including
+  Advanced Security, and advertises 99% uptime. Current was the first in the Nordics
+  to reach OCPP 2.0.1 CORE and Advanced Security. The company is backed by 500 Global
+  and surfaced in the API Evangelist network through that portfolio.
 url: https://raw.githubusercontent.com/api-evangelist/meshcrafts/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.current.eco/hubfs/current-logo.svg
 tags:
 - Company
+- EV Charging
+- Electric Vehicles
+- Charge Point Management
+- OCPP
+- Energy
+- Smart Charging
+- Payments
+- Nordics
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/meshcrafts-domain-security.yml
 - type: Website
   url: https://current.eco
+- type: DeveloperPortal
+  url: https://portal.current.eco/
+- type: Login
+  url: https://portal.current.eco/
+- type: Support
+  url: https://www.current.eco/en/support
+- type: HelpCenter
+  url: https://www.current.eco/en/support
+- type: Blog
+  url: https://www.current.eco/resources/articles
+- type: StatusPage
+  url: https://status.current.eco/
+- type: TermsOfService
+  url: https://www.current.eco/en/company/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.current.eco/company/privacy-policy
+- type: WellKnown
+  url: well-known/meshcrafts-well-known.yml
+- type: LLMsTxt
+  url: llms/meshcrafts-llms.txt
+- type: Lifecycle
+  url: lifecycle/meshcrafts-lifecycle.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
