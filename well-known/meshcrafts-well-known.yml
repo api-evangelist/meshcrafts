@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+source: probed /.well-known/ on current.eco hosts via HTTP
+hosts:
+- host: https://current.eco
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://www.current.eco
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+notes: >-
+  No /.well-known/ discovery documents (security.txt, openid-configuration,
+  oauth-authorization-server, api-catalog, ai-plugin.json) were published on the
+  probed CURRENT (Current Eco AS) hosts at the time of this pass. Absence is a
+  valid, recorded result.

@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://current.eco
+status_page: https://status.current.eco/
+versioning:
+  scheme: unknown
+  notes: >-
+    No public REST API versioning policy was published. Charge-point integration
+    is via OCPP; the platform supports OCPP 1.6 and OCPP 2.0.1 (CORE + Advanced
+    Security).
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: https://status.current.eco/
+  uptime_target: "99%"
+  notes: CURRENT advertises 99% uptime on its marketing site.
+deprecated_operations: []
